@@ -48,3 +48,46 @@
 22/07/2019  15:35:43 : SeleniumDriver : INFO : Element with the given locator 'error' and locator type 'class' is found 
 22/07/2019  15:35:43 : PM_Login_tests : INFO : Proper error message is displayed for invalid login
 22/07/2019  15:35:46 : PM_Login_tests : INFO : ======End of 'test_pmlogin_with_only_pwd' test======
+22/07/2019  15:46:47 : PM_Login_tests : INFO : ======Start of 'test_pm_invalidUserID_login' test======
+22/07/2019  15:46:48 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+22/07/2019  15:46:48 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+22/07/2019  15:46:48 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:48 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:48 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+22/07/2019  15:46:48 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+22/07/2019  15:46:48 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+22/07/2019  15:46:48 : SeleniumDriver : INFO : Element with the given locator 'error' and locator type 'class' is found 
+22/07/2019  15:46:48 : PM_Login_tests : INFO : Proper error message is displayed for invalid login
+22/07/2019  15:46:51 : PM_Login_tests : INFO : ======End of 'test_pm_invalidUserID_login' test======
+22/07/2019  15:46:51 : PM_Login_tests : INFO : ======Start of 'test_pm_invalidPWD_login' test======
+22/07/2019  15:46:51 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+22/07/2019  15:46:51 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+22/07/2019  15:46:51 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:51 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:51 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+22/07/2019  15:46:51 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+22/07/2019  15:46:52 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+22/07/2019  15:46:52 : SeleniumDriver : INFO : Element with the given locator 'error' and locator type 'class' is found 
+22/07/2019  15:46:52 : PM_Login_tests : INFO : Proper error message is displayed for invalid login
+22/07/2019  15:46:55 : PM_Login_tests : INFO : ======End of 'test_pm_invalidPWD_login' test======
+22/07/2019  15:46:55 : PM_Login_tests : INFO : ======Start of 'test_pmlogin_with_only_pwd' test======
+22/07/2019  15:46:55 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+22/07/2019  15:46:55 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+22/07/2019  15:46:55 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:55 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:55 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+22/07/2019  15:46:55 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+22/07/2019  15:46:55 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+22/07/2019  15:46:55 : SeleniumDriver : INFO : Element with the given locator 'error' and locator type 'class' is found 
+22/07/2019  15:46:55 : PM_Login_tests : INFO : Proper error message is displayed for invalid login
+22/07/2019  15:46:58 : PM_Login_tests : INFO : ======End of 'test_pmlogin_with_only_pwd' test======
+22/07/2019  15:46:58 : PM_Login_tests : INFO : ======Start of 'test_pm_valid_login' test======
+22/07/2019  15:46:58 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+22/07/2019  15:46:58 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+22/07/2019  15:46:58 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:58 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+22/07/2019  15:46:59 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+22/07/2019  15:46:59 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+22/07/2019  15:46:59 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+22/07/2019  15:46:59 : SeleniumDriver : INFO : Element is Found
+22/07/2019  15:47:02 : PM_Login_tests : INFO : ======End of 'test_pm_valid_login' test======

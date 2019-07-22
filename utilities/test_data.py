@@ -7,7 +7,7 @@ import pytest
 class UserData():
     cl = CustomLogger().custom_logger(logging.INFO)
     def __init__(self, filename, sheet_name):
-        self.file = "C:\\Users\\mallikar\\Documents\\Python_Workspace\\PM_SNM_Project\\test_data\\"+filename+".xlsx"
+        self.file = "C:\\Users\\mallikar\\Documents\\Python_Workspace\\PM_SNM_Automation\\test_data\\"+filename+".xlsx"
         self.wBook = xlrd.open_workbook(self.file)
         self.sheet = self.wBook.sheet_by_name(sheet_name)
         self.totalRows = self.sheet.nrows

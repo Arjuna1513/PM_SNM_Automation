@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="" />
+    <list default="true" id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/test_data.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,20 +15,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hellow_world.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/pm_login_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state>
+              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Second_file.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test2.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="126">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,29 +62,48 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onCancelButton</find>
+      <find>depart</find>
+      <find>done</find>
+      <find>ok</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="Mallikarjuna B" />
-      </list>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hellow_world.py" />
-        <option value="$PROJECT_DIR$/Second_file.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/PM_SNM_Automation.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/tests/LoginSample.py" />
+        <option value="$PROJECT_DIR$/pages/PM_Login_Page.py" />
+        <option value="$PROJECT_DIR$/tests/ValidPM_Login.py" />
+        <option value="$PROJECT_DIR$/pages/pom_login_page.py" />
+        <option value="$PROJECT_DIR$/utilities/Custom_Logger.py" />
+        <option value="$PROJECT_DIR$/base/webDriverFactory.py" />
+        <option value="$PROJECT_DIR$/utilities/screen_shot.py" />
+        <option value="$PROJECT_DIR$/utilities/readdata.csv" />
+        <option value="$PROJECT_DIR$/utilities/read_data.py" />
+        <option value="$PROJECT_DIR$/testData.csv" />
+        <option value="$PROJECT_DIR$/pages/pom_Users_Page.py" />
+        <option value="$PROJECT_DIR$/pages/pom_PM_HomePage.py" />
+        <option value="$PROJECT_DIR$/pages/pom_users_page.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_users_page.py" />
+        <option value="$PROJECT_DIR$/utilities/naviagtion.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_homepage.py" />
+        <option value="$PROJECT_DIR$/base/selenium_driver.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_user_page.py" />
+        <option value="$PROJECT_DIR$/utilities/util.py" />
+        <option value="$PROJECT_DIR$/tests/suite.py" />
+        <option value="$PROJECT_DIR$/tests/conftest.py" />
+        <option value="$PROJECT_DIR$/tests/pm_user_tests.py" />
+        <option value="$PROJECT_DIR$/utilities/test_sheet_location.py" />
+        <option value="$PROJECT_DIR$/utilities/test_status_check.py" />
+        <option value="$PROJECT_DIR$/tests/pm_login_tests.py" />
+        <option value="$PROJECT_DIR$/tests/Automation.log" />
+        <option value="$PROJECT_DIR$/utilities/test_data.py" />
+        <option value="$PROJECT_DIR$/tests/test2.py" />
       </list>
     </option>
   </component>
@@ -82,6 +126,22 @@
               <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -90,6 +150,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mallikar\Documents\Python_Workspace\PM_SNM_Project" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,20 +170,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="hellow_world" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PM_SNM_Automation" />
+  <component name="RunManager" selected="Python tests.pytest for pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd">
+    <configuration name="suite" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PM_SNM_Project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hellow_world.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/suite.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,9 +192,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for pm_login_tests.PM_Login_tests.test_pm_valid_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PM_SNM_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pm_login_tests.PM_Login_tests.test_pm_valid_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PM_SNM_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pm_user_tests.PM_User_Tests.test_create_user&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in pm_user_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="PM_SNM_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/pm_user_tests.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="PM_SNM_Project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.hellow_world" />
+        <item itemvalue="Python tests.pytest for pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" />
+        <item itemvalue="Python tests.Unittests for pm_login_tests.PM_Login_tests.test_pm_valid_login" />
+        <item itemvalue="Python tests.Unittests for pm_user_tests.PM_User_Tests.test_create_user" />
+        <item itemvalue="Python.suite" />
+        <item itemvalue="Python tests.Unittests in pm_user_tests.py" />
       </list>
     </recent_temporary>
   </component>
@@ -136,111 +264,337 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="" />
-      <created>1563787756677</created>
+      <changelist id="41a782b8-d43c-4bb4-b3fd-269349e0f9a2" name="Default Changelist" comment="" />
+      <created>1562175892814</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1563787756677</updated>
+      <updated>1562175892814</updated>
     </task>
-    <task id="LOCAL-00001" summary="Added one file : hello_world.py">
-      <created>1563787996033</created>
+    <task id="LOCAL-00001" summary="Commiting after adding selenium project directory to this project...">
+      <created>1563790434695</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1563787996033</updated>
+      <updated>1563790434695</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added one file : hello_world.py">
-      <created>1563788134205</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1563788134205</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Added one file : hello_world.py">
-      <created>1563789679756</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1563789679756</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 07m 24s.xml">
+      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 07m 26s.xml">
+      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 07m 28s.xml">
+      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 07m 30s.xml">
+      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 09m 10s.xml">
+      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 09m 14s.xml">
+      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.18 at 23h 02m 27s.xml">
+      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pm_login_tests_PM_Login_tests_test_pm_valid_login - 2019.07.21 at 19h 25m 42s.xml">
+      <configuration name="Unittests for pm_login_tests.PM_Login_tests.test_pm_valid_login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_pm_login_tests_PM_Login_tests_test_pmlogin_with_only_pwd - 2019.07.22 at 15h 35m 21s.xml">
+      <configuration name="pytest for pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_pm_login_tests_PM_Login_tests_test_pmlogin_with_only_pwd - 2019.07.22 at 15h 35m 49s.xml">
+      <configuration name="pytest for pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2406672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.32978722" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.214539" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35283688" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2216312" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
     </layout>
   </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
+    <option name="RECENT_FILTERS">
       <map>
-        <entry key="MAIN">
+        <entry key="Branch">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added one file : hello_world.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added one file : hello_world.py" />
+    <MESSAGE value="Commiting after adding selenium project directory to this project..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commiting after adding selenium project directory to this project..." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hellow_world.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-selenium-driver-4.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Second_file.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-custom-logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-login-tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-login-page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-selenium-driver-5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/LoginSample.py" />
+    <entry file="file://$PROJECT_DIR$/base/login.png" />
+    <entry file="file://$PROJECT_DIR$/base/test_pm_valid_login.png" />
+    <entry file="file://$PROJECT_DIR$/screenShots/test_pm_valid_login.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/4-conftest-1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_user_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="74" column="59" lean-forward="true" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#1550#1568#0" />
+            <element signature="e#1638#1663#0" />
+            <element signature="e#1753#1773#0" />
+            <element signature="e#1741#1766#0" />
+            <element signature="e#1975#2000#0" />
+            <element signature="e#2082#2107#0" />
+            <element signature="e#2191#2216#0" />
+            <element signature="e#2301#2316#0" />
+            <element signature="e#2412#2427#0" />
+            <element signature="e#2515#2530#0" />
+            <element signature="e#2614#2629#0" />
+            <element signature="e#2732#2747#0" />
+            <element signature="e#2850#2865#0" />
+            <element signature="e#2970#2985#0" />
+            <element signature="e#3101#3116#0" />
+            <element signature="e#3229#3281#0" />
+            <element signature="e#3340#3392#0" />
+            <element signature="e#3452#3467#0" />
+            <element signature="e#3558#3607#0" />
+            <element signature="e#3660#3685#0" />
+            <element signature="e#3771#3796#0" />
+            <element signature="e#3913#3928#0" />
+            <element signature="e#3939#3964#0" />
+            <element signature="e#4119#4144#0" />
+            <element signature="e#4241#4266#0" />
+            <element signature="e#4622#4665#0" />
+            <element signature="e#4716#4736#0" />
+            <element signature="e#4859#4879#0" />
+            <element signature="e#5050#5070#0" />
+            <element signature="e#5217#5237#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/fileName.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="155" column="24" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/webDriverFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testData.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/Custom_Logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/test_sheet_location.py" />
+    <entry file="file://$PROJECT_DIR$/utilities/test_status_check.py" />
+    <entry file="file://$PROJECT_DIR$/tests/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Automation.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/naviagtion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/read_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/pm_user_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="55" column="75" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/pm_login_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
