@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/test_data.py" afterDir="false" />
     </list>
+    <list id="caf2d630-6360-42d5-8f04-4c8e9af0773e" name="Revert &quot;Added RevertBack.py file&quot;" comment="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/pm_login_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="68">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -118,7 +116,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,21 +128,11 @@
               <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -277,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563790434695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba">
+      <created>1563792231677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563792231677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -334,6 +328,16 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
     </layout>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="RECENT_FILTERS">
       <map>
@@ -352,7 +356,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commiting after adding selenium project directory to this project..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commiting after adding selenium project directory to this project..." />
+    <MESSAGE value="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/1-selenium-driver-4.py">
@@ -593,8 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/pm_login_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="68">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
