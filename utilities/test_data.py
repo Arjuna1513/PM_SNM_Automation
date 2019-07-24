@@ -16,13 +16,13 @@ class UserData():
     def get_test_data(self, rowNumber, colNumber):
         return self.sheet.cell_value(rowNumber, colNumber)
 
-    def parse_test_data(self,methodName):
+    def parse_test_data(self,methodName, colNumber):
         value = None
         for row in range(self.totalRows):
             value = self.sheet.cell_value(row, 0)
             value = value.strip()
-            if value == methodName:
-                userData = self.get_test_data(row, 1)
+            if value == methodName.strip():
+                userData = self.get_test_data(row, colNumber)
                 userDataList = userData.split(",")
                 return userDataList
 

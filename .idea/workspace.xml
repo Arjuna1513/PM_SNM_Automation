@@ -3,6 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pom_pm_user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pom_pm_user_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenShots/test_create_user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenShots/test_pm_invalidPWD_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenShots/test_pm_invalidUserID_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenShots/test_pm_valid_login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenShots/test_pmlogin_with_only_pwd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pm_login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pm_login_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pm_user_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pm_user_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/delete_user_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/test_data.py" afterDir="false" />
     </list>
     <list id="caf2d630-6360-42d5-8f04-4c8e9af0773e" name="Revert &quot;Added RevertBack.py file&quot;" comment="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,25 +24,88 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/pm_login_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="195">
+              <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test2.py">
+        <entry file="file://$PROJECT_DIR$/tests/suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/pm_user_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/utilities/delete_user_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/pom_pm_user_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Automation.log">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="108">
               <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -42,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="156">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -66,6 +141,8 @@
       <find>depart</find>
       <find>done</find>
       <find>ok</find>
+      <find>range</find>
+      <find>onViewRangeButton</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,17 +168,18 @@
         <option value="$PROJECT_DIR$/utilities/naviagtion.py" />
         <option value="$PROJECT_DIR$/pages/pom_pm_homepage.py" />
         <option value="$PROJECT_DIR$/base/selenium_driver.py" />
-        <option value="$PROJECT_DIR$/pages/pom_pm_user_page.py" />
         <option value="$PROJECT_DIR$/utilities/util.py" />
         <option value="$PROJECT_DIR$/tests/suite.py" />
         <option value="$PROJECT_DIR$/tests/conftest.py" />
-        <option value="$PROJECT_DIR$/tests/pm_user_tests.py" />
         <option value="$PROJECT_DIR$/utilities/test_sheet_location.py" />
         <option value="$PROJECT_DIR$/utilities/test_status_check.py" />
-        <option value="$PROJECT_DIR$/tests/pm_login_tests.py" />
+        <option value="$PROJECT_DIR$/tests/test2.py" />
         <option value="$PROJECT_DIR$/tests/Automation.log" />
         <option value="$PROJECT_DIR$/utilities/test_data.py" />
-        <option value="$PROJECT_DIR$/tests/test2.py" />
+        <option value="$PROJECT_DIR$/tests/pm_login_tests.py" />
+        <option value="$PROJECT_DIR$/tests/pm_user_tests.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_user_page.py" />
+        <option value="$PROJECT_DIR$/utilities/delete_user_data.py" />
       </list>
     </option>
   </component>
@@ -127,6 +205,11 @@
               <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,7 +334,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="41a782b8-d43c-4bb4-b3fd-269349e0f9a2" name="Default Changelist" comment="" />
+      <changelist id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="" />
       <created>1562175892814</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -271,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563792231677</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba">
+      <created>1563793325976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563793325976</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -309,7 +399,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2406672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23351866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,8 +409,8 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.35283688" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17375886" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.47695035" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.2216312" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -420,49 +510,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pom_pm_user_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="74" column="59" lean-forward="true" selection-start-line="74" selection-start-column="59" selection-end-line="74" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#1550#1568#0" />
-            <element signature="e#1638#1663#0" />
-            <element signature="e#1753#1773#0" />
-            <element signature="e#1741#1766#0" />
-            <element signature="e#1975#2000#0" />
-            <element signature="e#2082#2107#0" />
-            <element signature="e#2191#2216#0" />
-            <element signature="e#2301#2316#0" />
-            <element signature="e#2412#2427#0" />
-            <element signature="e#2515#2530#0" />
-            <element signature="e#2614#2629#0" />
-            <element signature="e#2732#2747#0" />
-            <element signature="e#2850#2865#0" />
-            <element signature="e#2970#2985#0" />
-            <element signature="e#3101#3116#0" />
-            <element signature="e#3229#3281#0" />
-            <element signature="e#3340#3392#0" />
-            <element signature="e#3452#3467#0" />
-            <element signature="e#3558#3607#0" />
-            <element signature="e#3660#3685#0" />
-            <element signature="e#3771#3796#0" />
-            <element signature="e#3913#3928#0" />
-            <element signature="e#3939#3964#0" />
-            <element signature="e#4119#4144#0" />
-            <element signature="e#4241#4266#0" />
-            <element signature="e#4622#4665#0" />
-            <element signature="e#4716#4736#0" />
-            <element signature="e#4859#4879#0" />
-            <element signature="e#5050#5070#0" />
-            <element signature="e#5217#5237#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fileName.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/fileName.html" />
     <entry file="file://$PROJECT_DIR$/utilities/util.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -479,26 +527,6 @@
           <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="155" column="24" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -529,13 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utilities/test_sheet_location.py" />
     <entry file="file://$PROJECT_DIR$/utilities/test_status_check.py" />
-    <entry file="file://$PROJECT_DIR$/tests/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/results.html" />
     <entry file="file://$PROJECT_DIR$/pages/pom_login_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
@@ -545,9 +567,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Automation.log">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/utilities/naviagtion.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -563,32 +582,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/pm_user_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="55" column="75" selection-start-line="55" selection-start-column="75" selection-end-line="55" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="108">
           <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -596,10 +592,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Automation.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/pm_login_tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_user_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="41" column="44" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="151" column="44" lean-forward="true" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenShots/test_create_user.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenShots/test_pm_invalidPWD_login.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/pm_user_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="59" column="51" selection-start-line="59" selection-start-column="51" selection-end-line="59" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/delete_user_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

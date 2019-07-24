@@ -31,7 +31,7 @@ class PM_Login_tests(unittest.TestCase):
         try:
             self.log.info("======Start of 'test_pm_valid_login' test======")
             self.data.check_test_status(inspect.stack()[0][3])
-            dataList = self.data.parse_test_data(inspect.stack()[0][3])
+            dataList = self.data.parse_test_data(inspect.stack()[0][3],1)
             userName = dataList[0]
             userPwd = dataList[1]
             self.lp.login_in_to_pm(userName,userPwd)

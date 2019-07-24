@@ -39,6 +39,8 @@ class PM_Users_Page(SeleniumDriver):
     __user_on_select_remove_button__ = "onRemoveSelected"  #name
     __user_print_button__ = "onPrintSelected"  #name
     __user_add_expected_msg__ = "Add operation successful for:"  #class
+    __user_delete_expected_msg__ = "Remove operation successful for:"
+    __user_delete_actual_msg__ = "responseMessage"  #class
     __user_add_actual_msg__ = "responseMessage"  #class
 
     def get_user_link(self):
@@ -154,6 +156,9 @@ class PM_Users_Page(SeleniumDriver):
 
     def click_user_done_button(self):
         self.element_click(self.__user_done_button__, "xpath")
+
+    def click_user_view_button(self):
+        self.element_click(self.__user_view_button__,"name")
 
 
 
