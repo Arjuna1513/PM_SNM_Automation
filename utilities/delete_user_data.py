@@ -4,8 +4,11 @@ from selenium.webdriver.common.action_chains import ActionChains
 import inspect
 from selenium.webdriver.common.by import By
 class Delete_User_Data:
-    def delete_data(self, userpage, driver, userName, sShot):
+    def delete_data(self, pmhomepage, userpage, driver, userName, sShot):
         try:
+            pmhomepage.click_users()
+            userpage.click_user_link()
+            userpage.get_element(userpage.__user_name_input_range__,"name").clear()
             userpage.set_user_name_input_range(userName)
             userpage.click_user_view_button()
             element = driver.find_element(By.XPATH, "(//td[contains(text(),'"+userName+"')])[1]//preceding-sibling::td[18]")

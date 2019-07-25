@@ -42,6 +42,8 @@ class PM_Users_Page(SeleniumDriver):
     __user_delete_expected_msg__ = "Remove operation successful for:"
     __user_delete_actual_msg__ = "responseMessage"  #class
     __user_add_actual_msg__ = "responseMessage"  #class
+    __user_change_expected_msg__ = "Change operation successful for:"
+    __user_change_actual_msg__ = "responseMessage"  # class
 
     def get_user_link(self):
         return self.get_element(self.__user__, "id")
@@ -69,6 +71,9 @@ class PM_Users_Page(SeleniumDriver):
 
     def get_user_add_actual_msg(self):
         return self.get_element(self.__user_add_actual_msg__, "class")
+
+    def get_user_change_actual_msg(self):
+        return self.get_element(self.__user_change_actual_msg__, "class")
 
     def set_user_first_name(self, value):
         self.sendKeys(value, self.__user_first_name__, "id")
