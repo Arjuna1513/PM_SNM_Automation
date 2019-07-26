@@ -26,6 +26,10 @@ class UserData():
                 userDataList = userData.split(",")
                 return userDataList
 
+    def get_IP_data(self, rowNumber, colNumber):
+        IP = self.sheet.cell_value(rowNumber,colNumber)
+        return IP
+
     def check_test_status(self,methodName):
         value = None
         for row in range(self.totalRows):

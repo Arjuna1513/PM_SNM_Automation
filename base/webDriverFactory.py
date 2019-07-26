@@ -13,6 +13,6 @@ class WebDriverFactory():
         else:
             driver = webdriver.Firefox()
         driver.maximize_window()
-        driver.get("http://10.211.162.111/mp")
+        # driver.get("http://10.211.162.111/mp")
         driver.implicitly_wait(10)
         return driver

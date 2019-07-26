@@ -29,49 +29,52 @@ class PM_User_Tests(unittest.TestCase):
         self.homepage = PM_Home_Page(self.driver)
         self.util = Util()
         self.data = UserData("TestData", "logindata")
+        self.ipData = UserData("TestData", "IP")
         self.delete = Delete_User_Data()
         self.navigate = Navigation()
 
 
-    # def test_create_user(self):
-    #     try:
-    #         self.data.check_test_status(inspect.stack()[0][3])
-    #         loginData = self.data.parse_test_data("test_pm_valid_login",1)
-    #         userData = self.data.parse_test_data(inspect.stack()[0][3],1)
-    #         self.lp.login_in_to_pm(loginData[0],loginData[1])
-    #         self.homepage.click_users()
-    #         self.userpage.click_user_link()
-    #         self.userpage.click_user_add_button()
-    #         self.userpage.set_user_first_name(userData[0])
-    #         self.userpage.set_user_last_name(userData[0])
-    #         self.userpage.set_user_id(userData[0])
-    #         self.homepage.wait_for_element(self.userpage.__user_password__, "name")
-    #         self.userpage.set_user_password(userData[1])
-    #         self.userpage.set_user_confirm_password(userData[1])
-    #         self.cl.info("Entered password successfully")
-    #         self.userpage.set_user_email_id(userData[2])
-    #         self.userpage.set_user_alternate_first_name(userData[3])
-    #         self.userpage.set_user_alternate_last_name(userData[4])
-    #         self.userpage.set_user__business1(userData[5])
-    #         self.userpage.set_user__business2(userData[6])
-    #         self.userpage.set_user_mobile1(userData[7])
-    #         self.userpage.set_user_mobile2(userData[8])
-    #         self.util.select_dropdown_by_index(self.userpage.get_user_department(), 0)
-    #         self.userpage.click_user_select_department()
-    #         self.userpage.click_user_apply_button()
-    #         result = self.userpage.text_equals(self.userpage.get_user_add_actual_msg().text.strip(), self.userpage.__user_add_expected_msg__)
-    #         self.assertTrue(result)
-    #         self.userpage.click_user_done_button()
-    #         self.cl.info("User added Successfully")
-    #     except:
-    #         self.sShot.take_screen_shot(inspect.stack()[0][3], self.driver)
-    #         raise
-    #     finally:
-    #         userData = self.data.parse_test_data(inspect.stack()[0][3], 1)
-    #         self.delete.delete_data(self.pmhomepage, self.userpage, self.driver, userData[0], self.sShot)
+    def test_create_user(self):
+        try:
+            self.driver.get(self.ipData.get_IP_data(0,0))
+            self.data.check_test_status(inspect.stack()[0][3])
+            loginData = self.data.parse_test_data("test_pm_valid_login",1)
+            userData = self.data.parse_test_data(inspect.stack()[0][3],1)
+            self.lp.login_in_to_pm(loginData[0],loginData[1])
+            self.homepage.click_users()
+            self.userpage.click_user_link()
+            self.userpage.click_user_add_button()
+            self.userpage.set_user_first_name(userData[0])
+            self.userpage.set_user_last_name(userData[0])
+            self.userpage.set_user_id(userData[0])
+            self.homepage.wait_for_element(self.userpage.__user_password__, "name")
+            self.userpage.set_user_password(userData[1])
+            self.userpage.set_user_confirm_password(userData[1])
+            self.cl.info("Entered password successfully")
+            self.userpage.set_user_email_id(userData[2])
+            self.userpage.set_user_alternate_first_name(userData[3])
+            self.userpage.set_user_alternate_last_name(userData[4])
+            self.userpage.set_user__business1(userData[5])
+            self.userpage.set_user__business2(userData[6])
+            self.userpage.set_user_mobile1(userData[7])
+            self.userpage.set_user_mobile2(userData[8])
+            self.util.select_dropdown_by_index(self.userpage.get_user_department(), 0)
+            self.userpage.click_user_select_department()
+            self.userpage.click_user_apply_button()
+            result = self.userpage.text_equals(self.userpage.get_user_add_actual_msg().text.strip(), self.userpage.__user_add_expected_msg__)
+            self.assertTrue(result)
+            self.userpage.click_user_done_button()
+            self.cl.info("User added Successfully")
+        except:
+            self.sShot.take_screen_shot(inspect.stack()[0][3], self.driver)
+            raise
+        finally:
+            userData = self.data.parse_test_data(inspect.stack()[0][3], 1)
+            self.delete.delete_data(self.pmhomepage, self.userpage, self.driver, userData[0], self.sShot)
 
     def test_edit_user(self):
         try:
+            self.driver.get(self.ipData.get_IP_data(0,0))
             self.navigate.navigate_to_users_page(self.driver, self.data, self.homepage,
                                                             self.userpage, self.sShot, self.lp)
             userData = self.data.parse_test_data(inspect.stack()[0][3], 1)

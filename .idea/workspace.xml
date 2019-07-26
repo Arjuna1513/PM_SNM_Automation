@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_pm_user_tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_loginpage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_logs_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_numberAnalysis_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_services_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_system_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_telephony_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snm_pages/pom_snm_tools_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/snm_navigation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pom_pm_user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pom_pm_user_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/webDriverFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webDriverFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_data/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/TestData.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pm_login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pm_login_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/pm_user_tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/delete_user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/delete_user_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/naviagtion.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/naviagtion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pm_user_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pm_user_tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/test_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/test_data.py" afterDir="false" />
     </list>
     <list id="caf2d630-6360-42d5-8f04-4c8e9af0773e" name="Revert &quot;Added RevertBack.py file&quot;" comment="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,26 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_pm_user_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1477">
-              <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/pom_pm_user_page.py">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_loginpage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="132" column="46" lean-forward="true" selection-start-line="132" selection-start-column="46" selection-end-line="132" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="348">
+              <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -55,25 +47,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utilities/delete_user_data.py">
+        <entry file="file://$PROJECT_DIR$/utilities/snm_navigation.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="347">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/pom_pm_homepage.py">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_numberAnalysis_homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="50" column="54" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="54" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="299">
+              <caret line="27" lean-forward="true" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_telephony_homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_services_homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="756">
+              <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_system_homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_tools_homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="5" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_logs_homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -112,7 +148,6 @@
         <option value="$PROJECT_DIR$/tests/ValidPM_Login.py" />
         <option value="$PROJECT_DIR$/pages/pom_login_page.py" />
         <option value="$PROJECT_DIR$/utilities/Custom_Logger.py" />
-        <option value="$PROJECT_DIR$/base/webDriverFactory.py" />
         <option value="$PROJECT_DIR$/utilities/screen_shot.py" />
         <option value="$PROJECT_DIR$/utilities/readdata.csv" />
         <option value="$PROJECT_DIR$/utilities/read_data.py" />
@@ -130,13 +165,23 @@
         <option value="$PROJECT_DIR$/utilities/test_status_check.py" />
         <option value="$PROJECT_DIR$/tests/test2.py" />
         <option value="$PROJECT_DIR$/tests/Automation.log" />
-        <option value="$PROJECT_DIR$/utilities/test_data.py" />
         <option value="$PROJECT_DIR$/tests/pm_login_tests.py" />
         <option value="$PROJECT_DIR$/pages/pom_pm_user_page.py" />
         <option value="$PROJECT_DIR$/utilities/naviagtion.py" />
         <option value="$PROJECT_DIR$/tests/pm_user_tests.py" />
         <option value="$PROJECT_DIR$/utilities/delete_user_data.py" />
+        <option value="$PROJECT_DIR$/base/webDriverFactory.py" />
+        <option value="$PROJECT_DIR$/utilities/test_data.py" />
         <option value="$PROJECT_DIR$/tests/test_pm_user_tests.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_loginpage.py" />
+        <option value="$PROJECT_DIR$/utilities/snm_navigation.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_homepage.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_numberAnalysis_homepage.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_telephony_homepage.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_services_homepage.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_system_homepage.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_tools_homepage.py" />
+        <option value="$PROJECT_DIR$/snm_pages/pom_snm_logs_homepage.py" />
       </list>
     </option>
   </component>
@@ -161,7 +206,7 @@
             <path>
               <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="snm_pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
@@ -330,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563992034399</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="After adding edit user emthod">
+      <created>1564073305606</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564073305606</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -367,7 +419,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23351866" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.214539" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17375886" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960285" visible="true" weight="0.19326241" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.25531915" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2216312" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23351866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -385,7 +457,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
@@ -417,7 +489,8 @@
     <MESSAGE value="Commiting after adding selenium project directory to this project..." />
     <MESSAGE value="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
     <MESSAGE value="Added delete user Data method to utils package" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added delete user Data method to utils package" />
+    <MESSAGE value="After adding edit user emthod" />
+    <option name="LAST_COMMIT_MESSAGE" value="After adding edit user emthod" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Temp/1-selenium-driver-4.py">
@@ -491,13 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/webDriverFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testData.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -551,16 +617,6 @@
     <entry file="file://$PROJECT_DIR$/tests/Automation.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenShots/test_create_user.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -573,16 +629,6 @@
           <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -627,6 +673,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/webDriverFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_pm_user_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="81" column="49" lean-forward="true" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_loginpage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utilities/naviagtion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -634,13 +724,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_pm_user_tests.py">
+    <entry file="file://$PROJECT_DIR$/utilities/snm_navigation.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_homepage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1477">
-          <caret line="29" column="26" lean-forward="true" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="347">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_numberAnalysis_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="27" lean-forward="true" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_services_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="58" selection-start-line="42" selection-start-column="58" selection-end-line="42" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_telephony_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_system_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_tools_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_logs_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
