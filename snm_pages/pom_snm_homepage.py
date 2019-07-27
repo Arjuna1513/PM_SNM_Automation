@@ -13,6 +13,7 @@ class SNM_HomePage(SeleniumDriver):
     __system = "System"  #id
     __tools = "Tools"  #id
     __logs = "Logs"  #id
+    __logout = " Logout"
 
     def get_initial_setup(self):
         return self.get_element(self.__initial_setup, "id")
@@ -57,3 +58,6 @@ class SNM_HomePage(SeleniumDriver):
 
     def click_logs(self):
         self.element_click(self.__logs, "id")
+
+    def click_logout(self):
+        self.element_click(self.__logout, "link")

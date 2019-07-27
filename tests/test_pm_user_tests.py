@@ -28,8 +28,9 @@ class PM_User_Tests(unittest.TestCase):
         self.lp = PmLoginPage(self.driver)
         self.homepage = PM_Home_Page(self.driver)
         self.util = Util()
-        self.data = UserData("TestData", "logindata")
+        self.lgdata = UserData("TestData", "logindata")
         self.ipData = UserData("TestData", "IP")
+        self.userdata = UserData("TestData", "PMUserData")
         self.delete = Delete_User_Data()
         self.navigate = Navigation()
 
@@ -38,8 +39,8 @@ class PM_User_Tests(unittest.TestCase):
         try:
             self.driver.get(self.ipData.get_IP_data(0,0))
             self.data.check_test_status(inspect.stack()[0][3])
-            loginData = self.data.parse_test_data("test_pm_valid_login",1)
-            userData = self.data.parse_test_data(inspect.stack()[0][3],1)
+            loginData = self.lgdata.parse_test_data("test_pm_valid_login",1)
+            userData = self.userdata.parse_test_data(inspect.stack()[0][3],1)
             self.lp.login_in_to_pm(loginData[0],loginData[1])
             self.homepage.click_users()
             self.userpage.click_user_link()
@@ -75,9 +76,9 @@ class PM_User_Tests(unittest.TestCase):
     def test_edit_user(self):
         try:
             self.driver.get(self.ipData.get_IP_data(0,0))
-            self.navigate.navigate_to_users_page(self.driver, self.data, self.homepage,
+            self.navigate.navigate_to_users_page(self.driver, self.lgdata, self.userData, self.homepage,
                                                             self.userpage, self.sShot, self.lp)
-            userData = self.data.parse_test_data(inspect.stack()[0][3], 1)
+            userData = self.userdata.parse_test_data(inspect.stack()[0][3], 1)
             self.cl.info("Before creating user")
             self.userpage.click_user_add_button()
             self.userpage.set_user_first_name(userData[0])
@@ -122,6 +123,12 @@ class PM_User_Tests(unittest.TestCase):
         finally:
             userData = self.data.parse_test_data(inspect.stack()[0][3], 1)
             self.delete.delete_data(self.pmhomepage,self.userpage, self.driver, userData[0], self.sShot)
+
+    # def test_verify(self):
+    #     cmdList = [10,20]
+    #     util = Util()
+    #     util.execute_command(self.driver, cmdList)
+
 
 # if __name__=="__main__":
 #     unittest.main()
