@@ -1,5 +1,3 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 from base.selenium_driver import SeleniumDriver
 from utilities.Custom_Logger import CustomLogger
 import logging

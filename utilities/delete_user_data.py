@@ -1,6 +1,6 @@
-from pages.pom_pm_user_page import PM_Users_Page
-from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
+# from pages.pom_pm_user_page import PM_Users_Page
+# from selenium import webdriver
+# from selenium.webdriver.common.action_chains import ActionChains
 import inspect
 from selenium.webdriver.common.by import By
 class Delete_User_Data:

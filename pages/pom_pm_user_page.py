@@ -1,7 +1,7 @@
-from selenium import webdriver
-import unittest
+# from selenium import webdriver
+# import unittest
 from base.selenium_driver import SeleniumDriver
-from selenium.webdriver.common.by import By
+# from selenium.webdriver.common.by import By
 class PM_Users_Page(SeleniumDriver):
     def __init__(self, driver):
         super().__init__(driver)

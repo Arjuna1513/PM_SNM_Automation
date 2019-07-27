@@ -1,5 +1,5 @@
 import pytest
-from base.webDriverFactory import  WebDriverFactory
+from base.webDriverFactory import WebDriverFactory
 
 @pytest.yield_fixture()
 def setUp():

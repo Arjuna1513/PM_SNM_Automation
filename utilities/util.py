@@ -1,4 +1,4 @@
-from  utilities.Custom_Logger import CustomLogger
+from utilities.Custom_Logger import CustomLogger
 from selenium.webdriver.support.select import Select
 from selenium import webdriver
 import logging

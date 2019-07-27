@@ -4,14 +4,11 @@ from utilities.delete_user_data import Delete_User_Data
 import logging
 from pages.pom_pm_user_page import PM_Users_Page
 from pages.pom_login_page import PmLoginPage
-from pages.pom_pm_homepage import PM_Home_Page
 from utilities.Custom_Logger import CustomLogger
 from utilities.util import Util
-import time
 import inspect
 from utilities.test_data import UserData
 from utilities.naviagtion import Navigation
-from selenium.webdriver.common.by import By
 from pages.pom_pm_homepage import PM_Home_Page
 
 
