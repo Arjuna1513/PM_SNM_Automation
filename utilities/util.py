@@ -1,6 +1,5 @@
 from utilities.Custom_Logger import CustomLogger
 from selenium.webdriver.support.select import Select
-from selenium import webdriver
 import logging
 from snm_pages.pom_snm_loginpage import SNM_Login_Page
 from snm_pages.pom_snm_homepage import SNM_HomePage

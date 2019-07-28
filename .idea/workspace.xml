@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="">
+    <list default="true" id="40ae38be-ce3f-40d1-ad96-9ce96ceb6a9f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_administrators_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_authcode.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_extension.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_functionkeys.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_logs_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_ownsettings_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_services_homepage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pom_pm_system_homepage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PM_SNM_Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PM_SNM_Automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pom_login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pom_login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pom_pm_homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pom_pm_homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/pom_pm_user_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pom_pm_user_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_pm_user_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pm_user_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utilities/delete_user_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/delete_user_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/webDriverFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webDriverFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pm_login_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pm_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pm_user_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pm_user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utilities/naviagtion.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/naviagtion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utilities/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/utilities/util.py" afterDir="false" />
     </list>
-    <list id="caf2d630-6360-42d5-8f04-4c8e9af0773e" name="Revert &quot;Added RevertBack.py file&quot;" comment="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,32 +31,51 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_pm_user_tests.py">
+        <entry file="file://$PROJECT_DIR$/pages/pom_pm_authcode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="309">
+              <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utilities/util.py">
+        <entry file="file://$PROJECT_DIR$/pages/pom_pm_functionkeys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5">
-              <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="219">
+              <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/pom_pm_services_homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/pages/pom_pm_system_homepage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="6" selection-end-column="28" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -60,16 +89,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>onCancelButton</find>
-      <find>depart</find>
-      <find>done</find>
-      <find>ok</find>
-      <find>onViewRangeButton</find>
-      <find>last</find>
-      <find>add</find>
-      <find>Apply</find>
-      <find>range</find>
-      <find>click</find>
+      <find>auth</find>
+      <find>is_ele</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,48 +99,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tests/LoginSample.py" />
-        <option value="$PROJECT_DIR$/pages/PM_Login_Page.py" />
-        <option value="$PROJECT_DIR$/tests/ValidPM_Login.py" />
-        <option value="$PROJECT_DIR$/utilities/Custom_Logger.py" />
-        <option value="$PROJECT_DIR$/utilities/screen_shot.py" />
-        <option value="$PROJECT_DIR$/utilities/readdata.csv" />
-        <option value="$PROJECT_DIR$/utilities/read_data.py" />
-        <option value="$PROJECT_DIR$/testData.csv" />
-        <option value="$PROJECT_DIR$/pages/pom_Users_Page.py" />
-        <option value="$PROJECT_DIR$/pages/pom_PM_HomePage.py" />
-        <option value="$PROJECT_DIR$/pages/pom_users_page.py" />
-        <option value="$PROJECT_DIR$/pages/pom_pm_users_page.py" />
-        <option value="$PROJECT_DIR$/base/selenium_driver.py" />
-        <option value="$PROJECT_DIR$/tests/suite.py" />
-        <option value="$PROJECT_DIR$/utilities/test_sheet_location.py" />
-        <option value="$PROJECT_DIR$/utilities/test_status_check.py" />
-        <option value="$PROJECT_DIR$/tests/test2.py" />
-        <option value="$PROJECT_DIR$/tests/Automation.log" />
-        <option value="$PROJECT_DIR$/tests/pm_login_tests.py" />
-        <option value="$PROJECT_DIR$/tests/pm_user_tests.py" />
-        <option value="$PROJECT_DIR$/base/webDriverFactory.py" />
-        <option value="$PROJECT_DIR$/utilities/test_data.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_loginpage.py" />
-        <option value="$PROJECT_DIR$/utilities/snm_navigation.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_numberAnalysis_homepage.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_telephony_homepage.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_services_homepage.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_system_homepage.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_tools_homepage.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_logs_homepage.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_command_line.py" />
-        <option value="$PROJECT_DIR$/snm_pages/pom_snm_homepage.py" />
-        <option value="$PROJECT_DIR$/utilities/naviagtion.py" />
-        <option value="$PROJECT_DIR$/utilities/delete_user_data.py" />
-        <option value="$PROJECT_DIR$/pages/pom_pm_user_page.py" />
-        <option value="$PROJECT_DIR$/pages/pom_pm_homepage.py" />
-        <option value="$PROJECT_DIR$/tests/test_pm_login_tests.py" />
-        <option value="$PROJECT_DIR$/pages/pom_login_page.py" />
-        <option value="$PROJECT_DIR$/tests/conftest.py" />
         <option value="$PROJECT_DIR$/tests/test_pm_user_tests.py" />
-        <option value="$PROJECT_DIR$/tests/__init__.py" />
+        <option value="$PROJECT_DIR$/tests/test_pm_login_tests.py" />
+        <option value="$PROJECT_DIR$/base/webDriverFactory.py" />
+        <option value="$PROJECT_DIR$/base/selenium_driver.py" />
         <option value="$PROJECT_DIR$/utilities/util.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_services_homepage.py" />
+        <option value="$PROJECT_DIR$/pages/pom_administrators_homepage.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_system_homepage.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_logs_homepage.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_ownsettings_homepage.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_extension.py" />
+        <option value="$PROJECT_DIR$/utilities/naviagtion.py" />
+        <option value="$PROJECT_DIR$/tests/test_pm_user.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_suthcode.py" />
+        <option value="$PROJECT_DIR$/pages/pom_pm_functionkeys.py" />
       </list>
     </option>
   </component>
@@ -129,11 +123,13 @@
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,11 +150,6 @@
             <path>
               <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
               <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="snm_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PM_SNM_Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PM_SNM_Automation" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,26 +161,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
-  </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="PM_SNM_Project" is-module-sdk="true">
-        <option name="myUseModuleSdk" value="true" />
-        <option name="myModuleName" value="PM_SNM_Project" />
-      </console-settings>
-    </option>
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mallikar\Documents\Python_Workspace\PM_SNM_Project" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,550 +179,193 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_pm_user_tests.py">
-    <configuration name="suite" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PM_SNM_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/suite.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for tests.test_pm_login_tests.PM_Login_tests.test_pm_valid_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PM_SNM_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_pm_login_tests.PM_Login_tests.test_pm_valid_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for tests.test_pm_user_tests.PM_User_Tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PM_SNM_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_pm_user_tests.PM_User_Tests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_pm_user_tests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="PM_SNM_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_pm_user_tests.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for tests.test_pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="PM_SNM_Project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.test_pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Unittests in test_pm_user_tests.py" />
-        <item itemvalue="Python tests.pytest for tests.test_pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" />
-        <item itemvalue="Python tests.Unittests for tests.test_pm_login_tests.PM_Login_tests.test_pm_valid_login" />
-        <item itemvalue="Python tests.Unittests for tests.test_pm_user_tests.PM_User_Tests" />
-        <item itemvalue="Python.suite" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29315318-6293-4fb4-a6c9-5107baee270f" name="Default Changelist" comment="" />
-      <created>1562175892814</created>
+      <changelist id="40ae38be-ce3f-40d1-ad96-9ce96ceb6a9f" name="Default Changelist" comment="" />
+      <created>1564221387612</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1562175892814</updated>
+      <updated>1564221387612</updated>
     </task>
-    <task id="LOCAL-00001" summary="Commiting after adding selenium project directory to this project...">
-      <created>1563790434695</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1563790434695</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba">
-      <created>1563792231677</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1563792231677</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba">
-      <created>1563793325976</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1563793325976</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Added delete user Data method to utils package">
-      <created>1563992034398</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1563992034399</updated>
-    </task>
-    <task id="LOCAL-00005" summary="After adding edit user emthod">
-      <created>1564073305606</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1564073305606</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added snm pom classes.">
-      <created>1564140455228</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1564140455228</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Added command line pom class">
-      <created>1564145030224</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1564145030224</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Added execute command utility method">
-      <created>1564213527042</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1564213527042</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 07m 26s.xml">
-      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 07m 28s.xml">
-      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 07m 30s.xml">
-      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 09m 10s.xml">
-      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.17 at 21h 09m 14s.xml">
-      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pm_user_tests_PM_User_Tests_test_create_user - 2019.07.18 at 23h 02m 27s.xml">
-      <configuration name="Unittests for pm_user_tests.PM_User_Tests.test_create_user" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_pm_login_tests_PM_Login_tests_test_pm_valid_login - 2019.07.21 at 19h 25m 42s.xml">
-      <configuration name="Unittests for pm_login_tests.PM_Login_tests.test_pm_valid_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_pm_login_tests_PM_Login_tests_test_pmlogin_with_only_pwd - 2019.07.22 at 15h 35m 21s.xml">
-      <configuration name="pytest for pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_pm_login_tests_PM_Login_tests_test_pmlogin_with_only_pwd - 2019.07.22 at 15h 35m 49s.xml">
-      <configuration name="pytest for pm_login_tests.PM_Login_tests.test_pmlogin_with_only_pwd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_pm_user_tests_py - 2019.07.27 at 13h 33m 58s.xml">
-      <configuration name="Unittests in test_pm_user_tests.py" configurationId="tests" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30500397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2867355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35106382" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17375886" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49960285" visible="true" weight="0.32269505" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.25531915" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2216312" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.14361702" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23351866" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.214539" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.17375886" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49960285" visible="true" weight="0.3173759" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50039715" side_tool="true" weight="0.25531915" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.2216312" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2497979" />
-    </layout-to-restore>
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commiting after adding selenium project directory to this project..." />
-    <MESSAGE value="Revert &quot;Added RevertBack.py file&quot;&#10;&#10;This reverts commit d90038ba" />
-    <MESSAGE value="Added delete user Data method to utils package" />
-    <MESSAGE value="After adding edit user emthod" />
-    <MESSAGE value="Added snm pom classes." />
-    <MESSAGE value="Added command line pom class" />
-    <MESSAGE value="Added execute command utility method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added execute command utility method" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-selenium-driver-4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-custom-logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-login-tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-login-page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/1-selenium-driver-5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/LoginSample.py" />
-    <entry file="file://$PROJECT_DIR$/base/login.png" />
-    <entry file="file://$PROJECT_DIR$/base/test_pm_valid_login.png" />
-    <entry file="file://$PROJECT_DIR$/screenShots/test_pm_valid_login.png" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/4-conftest-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/fileName.html" />
-    <entry file="file://$PROJECT_DIR$/testData.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/Custom_Logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/test_sheet_location.py" />
-    <entry file="file://$PROJECT_DIR$/utilities/test_status_check.py" />
-    <entry file="file://$PROJECT_DIR$/tests/results.html" />
-    <entry file="file://$PROJECT_DIR$/utilities/read_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test2.py" />
-    <entry file="file://$PROJECT_DIR$/tests/suite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Automation.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenShots/test_create_user.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenShots/test_pm_invalidPWD_login.png" />
-    <entry file="file://$PROJECT_DIR$/base/webDriverFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_telephony_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_system_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_services_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_numberAnalysis_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_logs_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_loginpage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_tools_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="62" column="47" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/snm_navigation.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/naviagtion.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/snm_pages/pom_snm_command_line.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2610">
-          <caret line="151" column="44" selection-start-line="151" selection-start-column="44" selection-end-line="151" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pom_pm_homepage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utilities/delete_user_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="72" lean-forward="true" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
-          <folding>
-            <element signature="e#151#165#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pom_pm_user_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_pm_login_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/pom_login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#79#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-708">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state>
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_pm_user_tests.py">
+    <entry file="file://$PROJECT_DIR$/base/webDriverFactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="100" column="51" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+        <state relative-caret-position="18">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_pm_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/utilities/util.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5">
-          <caret line="14" column="11" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        <state relative-caret-position="-247">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_user_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_administrators_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_logs_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_ownsettings_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_extension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="191" selection-start-line="191" selection-end-line="191" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/test_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_pm_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/naviagtion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_authcode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_services_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_system_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/selenium_driver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="98" column="17" lean-forward="true" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/pom_pm_functionkeys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="278" lean-forward="true" selection-start-line="278" selection-end-line="278" />
         </state>
       </provider>
     </entry>

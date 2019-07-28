@@ -7,9 +7,9 @@ import logging
 import pytest
 import inspect
 from utilities.test_data import UserData
-from colorama import Fore, Style
-from utilities.read_data import readCSVData
-from ddt import ddt, data, unpack
+# from colorama import Fore, Style
+# from utilities.read_data import readCSVData
+# from ddt import ddt, data, unpack
 
 
 @pytest.mark.usefixtures("setUp", "driver_unit")

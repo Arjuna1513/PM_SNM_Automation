@@ -4,7 +4,7 @@ import selenium.webdriver.support.expected_conditions as ec
 from utilities.Custom_Logger import CustomLogger
 import logging
 from selenium import webdriver
-from utilities.util import Util
+# from utilities.util import Util
 
 
 class SeleniumDriver:
@@ -130,9 +130,9 @@ class SeleniumDriver:
             self.cl.info(f"Waited for the element to be click-able but failed.")
         return element
 
-    def verify_title(self, expected_title):
-        actual_title = self.driver.title
-        return Util().compare_titles(actual_title, expected_title)
+    # def verify_title(self, expected_title):
+    #     actual_title = self.driver.title
+    #     return Util().compare_titles(actual_title, expected_title)
 
     def get_text(self, locator, locatortype):
         element = self.get_element(locator, locatortype)

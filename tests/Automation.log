@@ -1120,3 +1120,466 @@
 26/07/2019  11:25:52 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
 26/07/2019  11:25:53 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
 26/07/2019  11:25:54 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:41:17 : PM_Login_tests : INFO : ======Start of 'test_pm_invalidPWD_login' test======
+27/07/2019  15:41:17 : PM_Login_tests : INFO : ======Start of 'test_pm_invalidUserID_login' test======
+27/07/2019  15:41:18 : PM_Login_tests : INFO : ======Start of 'test_pm_valid_login' test======
+27/07/2019  15:41:28 : SeleniumDriver : INFO : Cannot send data to the element with locator 'userId' and the locator type 'name'
+27/07/2019  15:41:39 : PM_Login_tests : INFO : ======Start of 'test_pmlogin_with_only_pwd' test======
+27/07/2019  15:49:24 : SeleniumDriver : INFO : Cannot click on the element with the locator 'Users' and locator-type 'id'
+27/07/2019  15:49:34 : SeleniumDriver : INFO : Cannot click on the element with the locator 'User' and locator-type 'id'
+27/07/2019  15:49:55 : SeleniumDriver : INFO : Cannot click on the element with the locator 'Users' and locator-type 'id'
+27/07/2019  15:50:05 : SeleniumDriver : INFO : Cannot click on the element with the locator 'User' and locator-type 'id'
+27/07/2019  15:51:16 : SeleniumDriver : INFO : Cannot click on the element with the locator 'Users' and locator-type 'id'
+27/07/2019  15:51:26 : SeleniumDriver : INFO : Cannot click on the element with the locator 'User' and locator-type 'id'
+27/07/2019  15:51:37 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+27/07/2019  15:51:37 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+27/07/2019  15:51:37 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:51:37 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:51:37 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+27/07/2019  15:51:37 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+27/07/2019  15:51:38 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+27/07/2019  15:51:38 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:51:38 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:51:38 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:51:39 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:51:39 : PM_User_Tests : INFO : Before creating user
+27/07/2019  15:51:39 : SeleniumDriver : INFO : Element with the given locator 'onAddButton' and locator type 'name' is found 
+27/07/2019  15:51:40 : SeleniumDriver : INFO : Clicked on the element with locator 'onAddButton' and locator-type 'name'
+27/07/2019  15:51:40 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.firstName' and locator type 'id' is found 
+27/07/2019  15:51:40 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.firstName' with the locator type 'id'
+27/07/2019  15:51:40 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:51:40 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  15:51:40 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.userId' and locator type 'id' is found 
+27/07/2019  15:51:40 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.userId' with the locator type 'id'
+27/07/2019  15:51:40 : SeleniumDriver : INFO : Waited till the Element is present and is click-able
+27/07/2019  15:51:40 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.password' and locator type 'name' is found 
+27/07/2019  15:51:40 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.password' with the locator type 'name'
+27/07/2019  15:51:40 : SeleniumDriver : INFO : Element with the given locator 'confirmPassword' and locator type 'name' is found 
+27/07/2019  15:51:41 : SeleniumDriver : INFO : data has been entered in the 'confirmPassword' with the locator type 'name'
+27/07/2019  15:51:41 : PM_User_Tests : INFO : Entered password successfully
+27/07/2019  15:51:41 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:51:41 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  15:51:41 : SeleniumDriver : INFO : Element with the given locator 'myAltFirstNames' and locator type 'id' is found 
+27/07/2019  15:51:41 : SeleniumDriver : INFO : data has been entered in the 'myAltFirstNames' with the locator type 'id'
+27/07/2019  15:51:41 : SeleniumDriver : INFO : Element with the given locator 'myAltLastNames' and locator type 'id' is found 
+27/07/2019  15:51:41 : SeleniumDriver : INFO : data has been entered in the 'myAltLastNames' with the locator type 'id'
+27/07/2019  15:51:41 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[0]' and locator type 'id' is found 
+27/07/2019  15:51:41 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[0]' with the locator type 'id'
+27/07/2019  15:51:41 : SeleniumDriver : INFO : Cannot send data to the element with locator 'mySelectedUDFList[1]' and the locator type 'id'
+27/07/2019  15:51:41 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[2]' and locator type 'id' is found 
+27/07/2019  15:51:41 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[2]' with the locator type 'id'
+27/07/2019  15:51:41 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[3]' and locator type 'id' is found 
+27/07/2019  15:51:42 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[3]' with the locator type 'id'
+27/07/2019  15:51:42 : SeleniumDriver : INFO : Element with the given locator 'mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:51:42 : SeleniumDriver : INFO : Element with the given locator 'listFilterAddButton_mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:51:42 : SeleniumDriver : INFO : Clicked on the element with locator 'listFilterAddButton_mySelectedDepts' and locator-type 'id'
+27/07/2019  15:51:42 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  15:51:42 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  15:51:42 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:51:42 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  15:51:43 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  15:51:43 : PM_User_Tests : INFO : User added Successfully
+27/07/2019  15:51:43 : PM_User_Tests : INFO : After user creation
+27/07/2019  15:51:43 : PM_User_Tests : INFO : Let' search for the user
+27/07/2019  15:51:43 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:51:43 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  15:51:43 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  15:51:44 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  15:51:44 : SeleniumDriver : INFO : Element with the given locator '(//td[contains(text(),'TestUsr1')])[1]//preceding-sibling::td[19]' and locator type 'xpath' is found 
+27/07/2019  15:51:46 : SeleniumDriver : INFO : Clicked on the element with locator '(//td[contains(text(),'TestUsr1')])[1]//preceding-sibling::td[19]' and locator-type 'xpath'
+27/07/2019  15:51:46 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:51:46 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:51:46 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  15:51:46 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:51:46 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:51:46 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  15:51:46 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  15:51:47 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  15:51:47 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:51:47 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  15:51:49 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  15:51:49 : PM_User_Tests : INFO : User edited Successfully
+27/07/2019  15:51:49 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:51:49 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:51:49 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:51:50 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:51:50 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:51:50 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:51:50 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  15:51:50 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  15:51:51 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  15:51:52 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:53:50 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+27/07/2019  15:53:50 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+27/07/2019  15:53:50 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:53:50 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:53:50 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+27/07/2019  15:53:50 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+27/07/2019  15:53:51 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+27/07/2019  15:53:51 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:53:51 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:53:51 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:53:52 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:53:52 : SeleniumDriver : INFO : Element with the given locator 'onAddButton' and locator type 'name' is found 
+27/07/2019  15:53:53 : SeleniumDriver : INFO : Clicked on the element with locator 'onAddButton' and locator-type 'name'
+27/07/2019  15:53:53 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.firstName' and locator type 'id' is found 
+27/07/2019  15:53:53 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.firstName' with the locator type 'id'
+27/07/2019  15:53:53 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:53:54 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  15:53:54 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.userId' and locator type 'id' is found 
+27/07/2019  15:53:54 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.userId' with the locator type 'id'
+27/07/2019  15:53:54 : SeleniumDriver : INFO : Waited till the Element is present and is click-able
+27/07/2019  15:53:54 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.password' and locator type 'name' is found 
+27/07/2019  15:53:54 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.password' with the locator type 'name'
+27/07/2019  15:53:54 : SeleniumDriver : INFO : Element with the given locator 'confirmPassword' and locator type 'name' is found 
+27/07/2019  15:53:54 : SeleniumDriver : INFO : data has been entered in the 'confirmPassword' with the locator type 'name'
+27/07/2019  15:53:54 : PM_User_Tests : INFO : Entered password successfully
+27/07/2019  15:53:54 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:53:54 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  15:53:54 : SeleniumDriver : INFO : Element with the given locator 'myAltFirstNames' and locator type 'id' is found 
+27/07/2019  15:53:54 : SeleniumDriver : INFO : data has been entered in the 'myAltFirstNames' with the locator type 'id'
+27/07/2019  15:53:54 : SeleniumDriver : INFO : Element with the given locator 'myAltLastNames' and locator type 'id' is found 
+27/07/2019  15:53:54 : SeleniumDriver : INFO : data has been entered in the 'myAltLastNames' with the locator type 'id'
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[0]' and locator type 'id' is found 
+27/07/2019  15:53:55 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[0]' with the locator type 'id'
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Cannot send data to the element with locator 'mySelectedUDFList[1]' and the locator type 'id'
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[2]' and locator type 'id' is found 
+27/07/2019  15:53:55 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[2]' with the locator type 'id'
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[3]' and locator type 'id' is found 
+27/07/2019  15:53:55 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[3]' with the locator type 'id'
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Element with the given locator 'listFilterAddButton_mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Clicked on the element with locator 'listFilterAddButton_mySelectedDepts' and locator-type 'id'
+27/07/2019  15:53:55 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  15:53:56 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  15:53:56 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:53:56 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  15:53:57 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  15:53:57 : PM_User_Tests : INFO : User added Successfully
+27/07/2019  15:53:57 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:53:57 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:53:57 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:53:58 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:53:58 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:53:58 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:53:58 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  15:53:58 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  15:53:59 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  15:54:01 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:54:01 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+27/07/2019  15:54:01 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+27/07/2019  15:54:01 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:54:01 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:54:01 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+27/07/2019  15:54:01 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+27/07/2019  15:54:02 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+27/07/2019  15:54:02 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:54:02 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:54:02 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:54:03 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:54:03 : PM_User_Tests : INFO : Before creating user
+27/07/2019  15:54:03 : SeleniumDriver : INFO : Element with the given locator 'onAddButton' and locator type 'name' is found 
+27/07/2019  15:54:04 : SeleniumDriver : INFO : Clicked on the element with locator 'onAddButton' and locator-type 'name'
+27/07/2019  15:54:04 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.firstName' and locator type 'id' is found 
+27/07/2019  15:54:04 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.firstName' with the locator type 'id'
+27/07/2019  15:54:04 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:54:04 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  15:54:04 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.userId' and locator type 'id' is found 
+27/07/2019  15:54:04 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.userId' with the locator type 'id'
+27/07/2019  15:54:04 : SeleniumDriver : INFO : Waited till the Element is present and is click-able
+27/07/2019  15:54:04 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.password' and locator type 'name' is found 
+27/07/2019  15:54:05 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.password' with the locator type 'name'
+27/07/2019  15:54:05 : SeleniumDriver : INFO : Element with the given locator 'confirmPassword' and locator type 'name' is found 
+27/07/2019  15:54:05 : SeleniumDriver : INFO : data has been entered in the 'confirmPassword' with the locator type 'name'
+27/07/2019  15:54:05 : PM_User_Tests : INFO : Entered password successfully
+27/07/2019  15:54:05 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:54:05 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  15:54:05 : SeleniumDriver : INFO : Element with the given locator 'myAltFirstNames' and locator type 'id' is found 
+27/07/2019  15:54:05 : SeleniumDriver : INFO : data has been entered in the 'myAltFirstNames' with the locator type 'id'
+27/07/2019  15:54:05 : SeleniumDriver : INFO : Element with the given locator 'myAltLastNames' and locator type 'id' is found 
+27/07/2019  15:54:05 : SeleniumDriver : INFO : data has been entered in the 'myAltLastNames' with the locator type 'id'
+27/07/2019  15:54:05 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[0]' and locator type 'id' is found 
+27/07/2019  15:54:05 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[0]' with the locator type 'id'
+27/07/2019  15:54:05 : SeleniumDriver : INFO : Cannot send data to the element with locator 'mySelectedUDFList[1]' and the locator type 'id'
+27/07/2019  15:54:05 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[2]' and locator type 'id' is found 
+27/07/2019  15:54:06 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[2]' with the locator type 'id'
+27/07/2019  15:54:06 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[3]' and locator type 'id' is found 
+27/07/2019  15:54:06 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[3]' with the locator type 'id'
+27/07/2019  15:54:06 : SeleniumDriver : INFO : Element with the given locator 'mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:54:06 : SeleniumDriver : INFO : Element with the given locator 'listFilterAddButton_mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:54:06 : SeleniumDriver : INFO : Clicked on the element with locator 'listFilterAddButton_mySelectedDepts' and locator-type 'id'
+27/07/2019  15:54:06 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  15:54:06 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  15:54:07 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:54:07 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:54:07 : SeleniumDriver : INFO : Cannot click on the element with the locator 'User' and locator-type 'id'
+27/07/2019  15:56:10 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+27/07/2019  15:56:10 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+27/07/2019  15:56:10 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:56:10 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:56:10 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+27/07/2019  15:56:10 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+27/07/2019  15:56:10 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+27/07/2019  15:56:10 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:56:11 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:56:11 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:56:12 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:56:12 : SeleniumDriver : INFO : Element with the given locator 'onAddButton' and locator type 'name' is found 
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Clicked on the element with locator 'onAddButton' and locator-type 'name'
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.firstName' and locator type 'id' is found 
+27/07/2019  15:56:13 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.firstName' with the locator type 'id'
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:56:13 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.userId' and locator type 'id' is found 
+27/07/2019  15:56:13 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.userId' with the locator type 'id'
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Waited till the Element is present and is click-able
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.password' and locator type 'name' is found 
+27/07/2019  15:56:13 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.password' with the locator type 'name'
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Element with the given locator 'confirmPassword' and locator type 'name' is found 
+27/07/2019  15:56:13 : SeleniumDriver : INFO : data has been entered in the 'confirmPassword' with the locator type 'name'
+27/07/2019  15:56:13 : PM_User_Tests : INFO : Entered password successfully
+27/07/2019  15:56:13 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:56:14 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  15:56:14 : SeleniumDriver : INFO : Element with the given locator 'myAltFirstNames' and locator type 'id' is found 
+27/07/2019  15:56:14 : SeleniumDriver : INFO : data has been entered in the 'myAltFirstNames' with the locator type 'id'
+27/07/2019  15:56:14 : SeleniumDriver : INFO : Element with the given locator 'myAltLastNames' and locator type 'id' is found 
+27/07/2019  15:56:14 : SeleniumDriver : INFO : data has been entered in the 'myAltLastNames' with the locator type 'id'
+27/07/2019  15:56:14 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[0]' and locator type 'id' is found 
+27/07/2019  15:56:14 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[0]' with the locator type 'id'
+27/07/2019  15:56:14 : SeleniumDriver : INFO : Cannot send data to the element with locator 'mySelectedUDFList[1]' and the locator type 'id'
+27/07/2019  15:56:14 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[2]' and locator type 'id' is found 
+27/07/2019  15:56:14 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[2]' with the locator type 'id'
+27/07/2019  15:56:14 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[3]' and locator type 'id' is found 
+27/07/2019  15:56:15 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[3]' with the locator type 'id'
+27/07/2019  15:56:15 : SeleniumDriver : INFO : Element with the given locator 'mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:56:15 : SeleniumDriver : INFO : Element with the given locator 'listFilterAddButton_mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:56:15 : SeleniumDriver : INFO : Clicked on the element with locator 'listFilterAddButton_mySelectedDepts' and locator-type 'id'
+27/07/2019  15:56:15 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  15:56:15 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  15:56:15 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:56:15 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  15:56:16 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  15:56:16 : PM_User_Tests : INFO : User added Successfully
+27/07/2019  15:56:16 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:56:17 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:56:17 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:56:17 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:56:18 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:56:18 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:56:18 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  15:56:18 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  15:56:19 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  15:56:20 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:56:20 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+27/07/2019  15:56:20 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+27/07/2019  15:56:20 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:56:20 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  15:56:21 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+27/07/2019  15:56:21 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+27/07/2019  15:56:21 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+27/07/2019  15:56:21 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:56:21 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:56:21 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:56:22 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:56:22 : PM_User_Tests : INFO : Before creating user
+27/07/2019  15:56:22 : SeleniumDriver : INFO : Element with the given locator 'onAddButton' and locator type 'name' is found 
+27/07/2019  15:56:23 : SeleniumDriver : INFO : Clicked on the element with locator 'onAddButton' and locator-type 'name'
+27/07/2019  15:56:23 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.firstName' and locator type 'id' is found 
+27/07/2019  15:56:23 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.firstName' with the locator type 'id'
+27/07/2019  15:56:23 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:56:23 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  15:56:23 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.userId' and locator type 'id' is found 
+27/07/2019  15:56:23 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.userId' with the locator type 'id'
+27/07/2019  15:56:23 : SeleniumDriver : INFO : Waited till the Element is present and is click-able
+27/07/2019  15:56:23 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.password' and locator type 'name' is found 
+27/07/2019  15:56:24 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.password' with the locator type 'name'
+27/07/2019  15:56:24 : SeleniumDriver : INFO : Element with the given locator 'confirmPassword' and locator type 'name' is found 
+27/07/2019  15:56:24 : SeleniumDriver : INFO : data has been entered in the 'confirmPassword' with the locator type 'name'
+27/07/2019  15:56:24 : PM_User_Tests : INFO : Entered password successfully
+27/07/2019  15:56:24 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:56:24 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  15:56:24 : SeleniumDriver : INFO : Element with the given locator 'myAltFirstNames' and locator type 'id' is found 
+27/07/2019  15:56:24 : SeleniumDriver : INFO : data has been entered in the 'myAltFirstNames' with the locator type 'id'
+27/07/2019  15:56:24 : SeleniumDriver : INFO : Element with the given locator 'myAltLastNames' and locator type 'id' is found 
+27/07/2019  15:56:24 : SeleniumDriver : INFO : data has been entered in the 'myAltLastNames' with the locator type 'id'
+27/07/2019  15:56:24 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[0]' and locator type 'id' is found 
+27/07/2019  15:56:24 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[0]' with the locator type 'id'
+27/07/2019  15:56:24 : SeleniumDriver : INFO : Cannot send data to the element with locator 'mySelectedUDFList[1]' and the locator type 'id'
+27/07/2019  15:56:24 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[2]' and locator type 'id' is found 
+27/07/2019  15:56:25 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[2]' with the locator type 'id'
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[3]' and locator type 'id' is found 
+27/07/2019  15:56:25 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[3]' with the locator type 'id'
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Element with the given locator 'mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Element with the given locator 'listFilterAddButton_mySelectedDepts' and locator type 'id' is found 
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Clicked on the element with locator 'listFilterAddButton_mySelectedDepts' and locator-type 'id'
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:56:25 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  15:56:26 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  15:56:26 : PM_User_Tests : INFO : User added Successfully
+27/07/2019  15:56:26 : PM_User_Tests : INFO : After user creation
+27/07/2019  15:56:26 : PM_User_Tests : INFO : Let' search for the user
+27/07/2019  15:56:26 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:56:26 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  15:56:26 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  15:56:28 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  15:56:28 : SeleniumDriver : INFO : Element with the given locator '(//td[contains(text(),'TestUsr1')])[1]//preceding-sibling::td[19]' and locator type 'xpath' is found 
+27/07/2019  15:56:29 : SeleniumDriver : INFO : Clicked on the element with locator '(//td[contains(text(),'TestUsr1')])[1]//preceding-sibling::td[19]' and locator-type 'xpath'
+27/07/2019  15:56:29 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:56:29 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  15:56:30 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  15:56:30 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:56:30 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  15:56:30 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  15:56:30 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  15:56:31 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  15:56:31 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  15:56:31 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  15:56:32 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  15:56:32 : PM_User_Tests : INFO : User edited Successfully
+27/07/2019  15:56:32 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  15:56:33 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  15:56:33 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  15:56:34 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  15:56:35 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:56:35 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  15:56:35 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  15:56:35 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  15:56:36 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  15:56:37 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  16:11:50 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+27/07/2019  16:11:50 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+27/07/2019  16:11:50 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  16:11:50 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  16:11:50 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+27/07/2019  16:11:50 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+27/07/2019  16:11:51 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+27/07/2019  16:11:51 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  16:11:51 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  16:11:51 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  16:11:52 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  16:11:52 : SeleniumDriver : INFO : Element with the given locator 'onAddButton' and locator type 'name' is found 
+27/07/2019  16:11:53 : SeleniumDriver : INFO : Clicked on the element with locator 'onAddButton' and locator-type 'name'
+27/07/2019  16:11:53 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.firstName' and locator type 'id' is found 
+27/07/2019  16:11:53 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.firstName' with the locator type 'id'
+27/07/2019  16:11:53 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  16:11:53 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  16:11:53 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.userId' and locator type 'id' is found 
+27/07/2019  16:11:54 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.userId' with the locator type 'id'
+27/07/2019  16:11:54 : SeleniumDriver : INFO : Waited till the Element is present and is click-able
+27/07/2019  16:11:54 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.password' and locator type 'name' is found 
+27/07/2019  16:11:54 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.password' with the locator type 'name'
+27/07/2019  16:11:54 : SeleniumDriver : INFO : Element with the given locator 'confirmPassword' and locator type 'name' is found 
+27/07/2019  16:11:54 : SeleniumDriver : INFO : data has been entered in the 'confirmPassword' with the locator type 'name'
+27/07/2019  16:11:54 : PM_User_Tests : INFO : Entered password successfully
+27/07/2019  16:11:54 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  16:11:54 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  16:11:54 : SeleniumDriver : INFO : Element with the given locator 'myAltFirstNames' and locator type 'id' is found 
+27/07/2019  16:11:54 : SeleniumDriver : INFO : data has been entered in the 'myAltFirstNames' with the locator type 'id'
+27/07/2019  16:11:54 : SeleniumDriver : INFO : Element with the given locator 'myAltLastNames' and locator type 'id' is found 
+27/07/2019  16:11:55 : SeleniumDriver : INFO : data has been entered in the 'myAltLastNames' with the locator type 'id'
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[0]' and locator type 'id' is found 
+27/07/2019  16:11:55 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[0]' with the locator type 'id'
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Cannot send data to the element with locator 'mySelectedUDFList[1]' and the locator type 'id'
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[2]' and locator type 'id' is found 
+27/07/2019  16:11:55 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[2]' with the locator type 'id'
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[3]' and locator type 'id' is found 
+27/07/2019  16:11:55 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[3]' with the locator type 'id'
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Element with the given locator 'mySelectedDepts' and locator type 'id' is found 
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Element with the given locator 'listFilterAddButton_mySelectedDepts' and locator type 'id' is found 
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Clicked on the element with locator 'listFilterAddButton_mySelectedDepts' and locator-type 'id'
+27/07/2019  16:11:55 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  16:11:56 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  16:11:56 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  16:11:56 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  16:11:56 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  16:11:56 : PM_User_Tests : INFO : User added Successfully
+27/07/2019  16:11:57 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  16:11:57 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  16:11:57 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  16:11:58 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  16:11:58 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  16:11:58 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  16:11:58 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  16:11:58 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  16:11:59 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  16:12:00 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  16:12:00 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+27/07/2019  16:12:00 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+27/07/2019  16:12:00 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  16:12:00 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+27/07/2019  16:12:01 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+27/07/2019  16:12:01 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+27/07/2019  16:12:01 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+27/07/2019  16:12:01 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  16:12:01 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  16:12:01 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  16:12:02 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  16:12:02 : PM_User_Tests : INFO : Before creating user
+27/07/2019  16:12:02 : SeleniumDriver : INFO : Element with the given locator 'onAddButton' and locator type 'name' is found 
+27/07/2019  16:12:02 : SeleniumDriver : INFO : Clicked on the element with locator 'onAddButton' and locator-type 'name'
+27/07/2019  16:12:02 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.firstName' and locator type 'id' is found 
+27/07/2019  16:12:03 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.firstName' with the locator type 'id'
+27/07/2019  16:12:03 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  16:12:03 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  16:12:03 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.userId' and locator type 'id' is found 
+27/07/2019  16:12:03 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.userId' with the locator type 'id'
+27/07/2019  16:12:03 : SeleniumDriver : INFO : Waited till the Element is present and is click-able
+27/07/2019  16:12:03 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.password' and locator type 'name' is found 
+27/07/2019  16:12:03 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.password' with the locator type 'name'
+27/07/2019  16:12:03 : SeleniumDriver : INFO : Element with the given locator 'confirmPassword' and locator type 'name' is found 
+27/07/2019  16:12:03 : SeleniumDriver : INFO : data has been entered in the 'confirmPassword' with the locator type 'name'
+27/07/2019  16:12:03 : PM_User_Tests : INFO : Entered password successfully
+27/07/2019  16:12:03 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  16:12:04 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  16:12:04 : SeleniumDriver : INFO : Element with the given locator 'myAltFirstNames' and locator type 'id' is found 
+27/07/2019  16:12:04 : SeleniumDriver : INFO : data has been entered in the 'myAltFirstNames' with the locator type 'id'
+27/07/2019  16:12:04 : SeleniumDriver : INFO : Element with the given locator 'myAltLastNames' and locator type 'id' is found 
+27/07/2019  16:12:04 : SeleniumDriver : INFO : data has been entered in the 'myAltLastNames' with the locator type 'id'
+27/07/2019  16:12:04 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[0]' and locator type 'id' is found 
+27/07/2019  16:12:04 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[0]' with the locator type 'id'
+27/07/2019  16:12:04 : SeleniumDriver : INFO : Cannot send data to the element with locator 'mySelectedUDFList[1]' and the locator type 'id'
+27/07/2019  16:12:04 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[2]' and locator type 'id' is found 
+27/07/2019  16:12:04 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[2]' with the locator type 'id'
+27/07/2019  16:12:04 : SeleniumDriver : INFO : Element with the given locator 'mySelectedUDFList[3]' and locator type 'id' is found 
+27/07/2019  16:12:04 : SeleniumDriver : INFO : data has been entered in the 'mySelectedUDFList[3]' with the locator type 'id'
+27/07/2019  16:12:04 : SeleniumDriver : INFO : Element with the given locator 'mySelectedDepts' and locator type 'id' is found 
+27/07/2019  16:12:05 : SeleniumDriver : INFO : Element with the given locator 'listFilterAddButton_mySelectedDepts' and locator type 'id' is found 
+27/07/2019  16:12:05 : SeleniumDriver : INFO : Clicked on the element with locator 'listFilterAddButton_mySelectedDepts' and locator-type 'id'
+27/07/2019  16:12:05 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  16:12:05 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  16:12:05 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  16:12:05 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  16:12:06 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  16:12:06 : PM_User_Tests : INFO : User added Successfully
+27/07/2019  16:12:06 : PM_User_Tests : INFO : After user creation
+27/07/2019  16:12:06 : PM_User_Tests : INFO : Let' search for the user
+27/07/2019  16:12:06 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  16:12:06 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  16:12:06 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  16:12:07 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  16:12:07 : SeleniumDriver : INFO : Element with the given locator '(//td[contains(text(),'TestUsr1')])[1]//preceding-sibling::td[19]' and locator type 'xpath' is found 
+27/07/2019  16:12:08 : SeleniumDriver : INFO : Clicked on the element with locator '(//td[contains(text(),'TestUsr1')])[1]//preceding-sibling::td[19]' and locator-type 'xpath'
+27/07/2019  16:12:08 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  16:12:08 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.lastName' and locator type 'id' is found 
+27/07/2019  16:12:09 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.lastName' with the locator type 'id'
+27/07/2019  16:12:09 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  16:12:09 : SeleniumDriver : INFO : Element with the given locator 'myUser_VO.email' and locator type 'id' is found 
+27/07/2019  16:12:09 : SeleniumDriver : INFO : data has been entered in the 'myUser_VO.email' with the locator type 'id'
+27/07/2019  16:12:09 : SeleniumDriver : INFO : Element with the given locator 'onApplyButtonTopID' and locator type 'id' is found 
+27/07/2019  16:12:10 : SeleniumDriver : INFO : Clicked on the element with locator 'onApplyButtonTopID' and locator-type 'id'
+27/07/2019  16:12:10 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+27/07/2019  16:12:10 : SeleniumDriver : INFO : Element with the given locator '(//input[@name='okbutton'])[1]' and locator type 'xpath' is found 
+27/07/2019  16:12:12 : SeleniumDriver : INFO : Clicked on the element with locator '(//input[@name='okbutton'])[1]' and locator-type 'xpath'
+27/07/2019  16:12:12 : PM_User_Tests : INFO : User edited Successfully
+27/07/2019  16:12:12 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+27/07/2019  16:12:12 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+27/07/2019  16:12:12 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+27/07/2019  16:12:13 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+27/07/2019  16:12:13 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  16:12:13 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+27/07/2019  16:12:13 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+27/07/2019  16:12:13 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+27/07/2019  16:12:14 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+27/07/2019  16:12:15 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 

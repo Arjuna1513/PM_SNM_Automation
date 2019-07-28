@@ -27,7 +27,7 @@ class PM_User_Tests(unittest.TestCase):
         self.util = Util()
         self.lgdata = UserData("TestData", "logindata")
         self.ipData = UserData("TestData", "IP")
-        self.userdata = UserData("TestData", "PMUserData")
+        self.userdata = UserData("TestData", "PMTestData")
         self.delete = Delete_User_Data()
         self.navigate = Navigation()
 
@@ -35,7 +35,7 @@ class PM_User_Tests(unittest.TestCase):
     def test_create_user(self):
         try:
             self.driver.get(self.ipData.get_IP_data(0,0))
-            self.data.check_test_status(inspect.stack()[0][3])
+            self.userdata.check_test_status(inspect.stack()[0][3])
             loginData = self.lgdata.parse_test_data("test_pm_valid_login",1)
             userData = self.userdata.parse_test_data(inspect.stack()[0][3],1)
             self.lp.login_in_to_pm(loginData[0],loginData[1])
@@ -67,13 +67,13 @@ class PM_User_Tests(unittest.TestCase):
             self.sShot.take_screen_shot(inspect.stack()[0][3], self.driver)
             raise
         finally:
-            userData = self.data.parse_test_data(inspect.stack()[0][3], 1)
+            userData = self.userdata.parse_test_data(inspect.stack()[0][3], 1)
             self.delete.delete_data(self.pmhomepage, self.userpage, self.driver, userData[0], self.sShot)
 
     def test_edit_user(self):
         try:
             self.driver.get(self.ipData.get_IP_data(0,0))
-            self.navigate.navigate_to_users_page(self.driver, self.lgdata, self.userData, self.homepage,
+            self.navigate.navigate_to_users_page(self.driver, self.lgdata, self.userdata, self.homepage,
                                                             self.userpage, self.sShot, self.lp)
             userData = self.userdata.parse_test_data(inspect.stack()[0][3], 1)
             self.cl.info("Before creating user")
@@ -118,7 +118,7 @@ class PM_User_Tests(unittest.TestCase):
             self.sShot.take_screen_shot(inspect.stack()[0][3], self.driver)
             raise
         finally:
-            userData = self.data.parse_test_data(inspect.stack()[0][3], 1)
+            userData = self.userdata.parse_test_data(inspect.stack()[0][3], 1)
             self.delete.delete_data(self.pmhomepage,self.userpage, self.driver, userData[0], self.sShot)
 
     # def test_verify(self):
