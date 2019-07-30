@@ -46,7 +46,16 @@ class PM_Users_Page(SeleniumDriver):
     __user_change_actual_msg__ = "responseMessage"  # class
 
     def get_user_link(self):
-        return self.get_element(self.__user__, "id")
+        return self.get_element(self.__user_first_name__, "id")
+
+    def get_first_name(self):
+        return self.get_element(self.get_first_name(), "id")
+
+    def get_last_name(self):
+        return self.get_element(self.__user_last_name__, "id")
+
+    def get_userId(self):
+        return self.get_element(self.__user_user_id__, "id")
 
     def get_user_addbutton(self):
         return self.get_element(self.__user_add_button__, "name")
@@ -59,6 +68,9 @@ class PM_Users_Page(SeleniumDriver):
 
     def get_user_next_button(self):
         return self.get_element(self.__user_next_button__, "id")
+
+    def click_user_next_button(self):
+        self.element_click(self.__user_next_button__, "id")
 
     def get_user_apply_button(self):
         return self.get_element(self.__user_apply_button__, "id")

@@ -43,17 +43,17 @@ class Util:
         sel.select_by_value(value)
 
     def execute_command(self, driver, exeCmds):
-        logindata = self.logindata.parse_test_data("test_pm_valid_login", 1)
         pmLink = self.ipdata.get_test_data(0,0)
         snmLink = self.ipdata.get_test_data(1,0)
+        snmlogindata = self.logindata.parse_test_data("test_snm_valid_login", 1)
         pmTestData = self.testData.parse_test_data(inspect.stack()[1][3], 1)
         driver.get(snmLink)
-        wait = WebDriverWait(10, driver)
+        wait = WebDriverWait(driver, 10)
         lp = SNM_Login_Page(driver)
         hp = SNM_HomePage(driver)
         tp = SNM_Tools_Homepage(driver)
         cmdLine = SNM_Tools_CommandLine(driver)
-        lp.snm_login(logindata[0], logindata[1])
+        lp.snm_login(snmlogindata[0], snmlogindata[1])
         hp.click_tools()
         parentWindow = driver.current_window_handle
         tp.click_Command_Line()
@@ -70,7 +70,7 @@ class Util:
                 driver.close()
         driver.switch_to_window(parentWindow)
         hp.click_logout()
-        driver.get(pmLink)
+        # driver.get(pmLink)
 
 
 
