@@ -44,6 +44,8 @@ class PM_Users_Page(SeleniumDriver):
     __user_add_actual_msg__ = "responseMessage"  #class
     __user_change_expected_msg__ = "Change operation successful for:"
     __user_change_actual_msg__ = "responseMessage"  # class
+    __user_no_user_found_actual_message = "//td/b[contains(text(),' No data found')]"  #xpath
+    __user_no_user_found_expected_message = "No data found"
 
     def get_user_link(self):
         return self.get_element(self.__user_first_name__, "id")
@@ -59,6 +61,12 @@ class PM_Users_Page(SeleniumDriver):
 
     def get_user_addbutton(self):
         return self.get_element(self.__user_add_button__, "name")
+
+    def get_no_user_found_actual_message(self):
+        return self.get_element(self.__user_no_user_found_actual_message, "xpath")
+
+    def get_no_user_found_expected_message(self):
+        return self.get_element(self.__user_no_user_found_actual_message, "xpath")
 
     def set_user_name_input_range(self, input):
         self.sendKeys(input, self.__user_name_input_range__, "name")

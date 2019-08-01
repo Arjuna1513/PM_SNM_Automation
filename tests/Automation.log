@@ -4995,3 +4995,64 @@
 30/07/2019  11:27:31 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
 30/07/2019  11:27:32 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
 30/07/2019  11:27:34 : SeleniumDriver : INFO : Element with the given locator 'responseMessage' and locator type 'class' is found 
+01/08/2019  17:11:35 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+01/08/2019  17:11:35 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+01/08/2019  17:11:35 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:11:35 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:11:36 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+01/08/2019  17:11:36 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+01/08/2019  17:11:36 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+01/08/2019  17:11:36 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+01/08/2019  17:11:36 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+01/08/2019  17:11:36 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+01/08/2019  17:11:37 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+01/08/2019  17:14:50 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+01/08/2019  17:14:50 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+01/08/2019  17:14:50 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:14:50 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:14:50 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+01/08/2019  17:14:51 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+01/08/2019  17:14:51 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+01/08/2019  17:14:51 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+01/08/2019  17:14:51 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+01/08/2019  17:14:51 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+01/08/2019  17:14:52 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+01/08/2019  17:14:53 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+01/08/2019  17:14:53 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+01/08/2019  17:14:53 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+01/08/2019  17:14:53 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+01/08/2019  17:14:53 : SeleniumDriver : INFO : Element with the given locator '//td/b[contains(text(),' No data found')]' and locator type 'xpath' is found 
+01/08/2019  17:14:53 : SeleniumDriver : INFO : Element with the given locator '//td/b[contains(text(),' No data found')]' and locator type 'xpath' is found 
+01/08/2019  17:16:20 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+01/08/2019  17:16:20 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+01/08/2019  17:16:20 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:16:21 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:16:21 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+01/08/2019  17:16:21 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+01/08/2019  17:16:21 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+01/08/2019  17:16:21 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+01/08/2019  17:16:22 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+01/08/2019  17:16:22 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+01/08/2019  17:16:23 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+01/08/2019  17:16:23 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+01/08/2019  17:16:23 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+01/08/2019  17:16:23 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+01/08/2019  17:16:23 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+01/08/2019  17:16:23 : SeleniumDriver : INFO : Element with the given locator '//td/b[contains(text(),' No data found')]' and locator type 'xpath' is found 
+01/08/2019  17:17:14 : SeleniumDriver : INFO : Element with the given locator 'userId' and locator type 'name' is found 
+01/08/2019  17:17:14 : SeleniumDriver : INFO : data has been entered in the 'userId' with the locator type 'name'
+01/08/2019  17:17:14 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:17:15 : SeleniumDriver : INFO : Element with the given locator 'password' and locator type 'name' is found 
+01/08/2019  17:17:15 : SeleniumDriver : INFO : data has been entered in the 'password' with the locator type 'name'
+01/08/2019  17:17:15 : SeleniumDriver : INFO : Element with the given locator 'login' and locator type 'name' is found 
+01/08/2019  17:17:16 : SeleniumDriver : INFO : Clicked on the element with locator 'login' and locator-type 'name'
+01/08/2019  17:17:16 : SeleniumDriver : INFO : Element with the given locator 'Users' and locator type 'id' is found 
+01/08/2019  17:17:16 : SeleniumDriver : INFO : Clicked on the element with locator 'Users' and locator-type 'id'
+01/08/2019  17:17:16 : SeleniumDriver : INFO : Element with the given locator 'User' and locator type 'id' is found 
+01/08/2019  17:17:17 : SeleniumDriver : INFO : Clicked on the element with locator 'User' and locator-type 'id'
+01/08/2019  17:17:17 : SeleniumDriver : INFO : Element with the given locator 'range' and locator type 'name' is found 
+01/08/2019  17:17:17 : SeleniumDriver : INFO : data has been entered in the 'range' with the locator type 'name'
+01/08/2019  17:17:17 : SeleniumDriver : INFO : Element with the given locator 'onViewRangeButton' and locator type 'name' is found 
+01/08/2019  17:17:18 : SeleniumDriver : INFO : Clicked on the element with locator 'onViewRangeButton' and locator-type 'name'
+01/08/2019  17:17:18 : SeleniumDriver : INFO : Element with the given locator '//td/b[contains(text(),' No data found')]' and locator type 'xpath' is found 
+01/08/2019  17:17:18 : SeleniumDriver : INFO : Element with the given locator '//td/b[contains(text(),' No data found')]' and locator type 'xpath' is found 

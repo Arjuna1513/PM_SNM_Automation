@@ -39,7 +39,7 @@ class PM_User_Tests(unittest.TestCase):
         self.extpage = PM_Extension(self.driver)
         self.wait = WebDriverWait(self.driver,10)
 
-    # @pytest.mark.skip
+    @pytest.mark.skip
     def test_create_user(self):
         try:
             self.driver.get(self.ipData.get_IP_data(0,0))
@@ -79,7 +79,7 @@ class PM_User_Tests(unittest.TestCase):
             userData = self.userdata.parse_test_data(inspect.stack()[0][3], 1)
             self.delete.delete_data(self.pmhomepage, self.userpage, self.driver, userData[0], self.sShot)
 
-    # @pytest.mark.skip
+    @pytest.mark.skip
     def test_edit_user(self):
         try:
             self.userdata.check_test_status(inspect.stack()[0][3])
@@ -132,7 +132,7 @@ class PM_User_Tests(unittest.TestCase):
             userData = self.userdata.parse_test_data(inspect.stack()[0][3], 1)
             self.delete.delete_data(self.pmhomepage,self.userpage, self.driver, userData[0], self.sShot)
 
-    # @pytest.mark.skip
+    @pytest.mark.skip
     def test_assign_extension_to_user(self):
         try:
             # self.navigate.navigate_to_users_page(self.ipData, self.driver, self.lgdata, self.userdata, self.homepage,
@@ -187,6 +187,18 @@ class PM_User_Tests(unittest.TestCase):
             # excCmds.append(userData[9])
             # self.util.execute_command(self.driver,excCmds)
             self.delete.delete_data(self.pmhomepage,self.userpage, self.driver, userData[3], self.sShot)
+
+
+    def test_no_users_found(self):
+        self.userdata.check_test_status(inspect.stack()[0][3])
+        testData = self.userdata.parse_test_data(inspect.stack()[0][3], 1)
+        self.navigate.navigate_to_users_page(self.ipData, self.driver, self.lgdata, self.homepage,
+                                                            self.userpage, self.sShot, self.lp)
+        self.userpage.set_user_name_input_range(testData[0])
+        self.userpage.click_user_view_button()
+        result = self.userpage.text_equals(self.userpage.get_no_user_found_expected_message().text.strip(),self.userpage.get_no_user_found_actual_message().text.strip())
+        assert result
+
 
 
 
